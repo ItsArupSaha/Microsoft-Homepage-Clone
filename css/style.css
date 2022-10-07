@@ -309,6 +309,10 @@ ul {
         grid-template-columns: 1fr;
     }
 
+    .xbox .btn {
+        padding: 8px 10px;
+    }
+
     .links .links-inner {
         grid-template-columns: 1fr;
     }
