@@ -11,6 +11,11 @@
 </head>
 
 <body>
+    <!-- menu button -->
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+
     <div class="container">
         <!-- navbar  -->
         <nav class="main-nav">
@@ -226,6 +231,11 @@
             </div>
         </footer>
     </div>
+
+
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+    </script>
 </body>
 
 </html>
